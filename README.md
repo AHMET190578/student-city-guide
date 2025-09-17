@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎓 City & University Travel Guide
 
 A **city & university guide** app designed for students and travelers. Select your city or university to filter popular places, ask questions in the Q&A section, and generate AI-powered travel routes.
