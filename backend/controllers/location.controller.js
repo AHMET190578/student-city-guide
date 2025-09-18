@@ -146,7 +146,7 @@ export const getTopRatedPlaces = async (req, res) => {
       },
       {
         $match: {
-          "cityDetails.0": { $exists: true }, // cityDetails'in boş olmadığından emin ol
+          "cityDetails.0": { $exists: true }, // Make sure cityDetails is never empty 
         },
       },
       {
